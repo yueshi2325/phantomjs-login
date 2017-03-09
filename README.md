@@ -12,8 +12,9 @@
     
     5. 在examples文件中提供了很多demo代码可以直接使用，例：脚本代码hello.js
 
-	
+![test](img/1.png)
 执行命令：  phantomjs hello.js
+
 执行接口：命令行输出 Hello，world！
 	
 
