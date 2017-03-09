@@ -1,4 +1,5 @@
-# PhantomJs
+### PhantomJs
+---
 安装PhantomJS
 下载对应版本PhantomJS，解压缩即可
 
@@ -20,7 +21,7 @@
    
    ![test](img/2.png)
 
-# 模拟Google Play登录
+### 模拟Google Play登录
 ---
 1. 访问Google Play登录网址 https://accounts.google.com/ServiceLogin 
    gp_login.js脚本中创建虚拟浏览器，打开google play的登录网页
@@ -37,6 +38,7 @@
 3. 输入账号后，页面切换到输入密码，密码输入框控件id为Passwd
    ![test](img/6.png)
    模拟用户数据账号密码，操作同上一步，输入gp密码后，点击“登录”即可登录Google play账号
+   
    ![test](img/7.png)
    
 4. 打开需要爬取数据的页面
@@ -45,10 +47,11 @@
    ![test](img/9.png)
    
 5. 具体数据爬取，在 page.evaluate中添加数据爬取代码，将爬取内容返回到ret4变量中，数据爬取结束后，退出浏览器 phantom.exirt() 
+
    ![test](img/10.png)
 
 
-# phantomjs click bug
+### phantomjs click bug
 ---
 phantomjs中，除了button元素之外的dom元素无法触发click事件
 问题解决方案：自己创建Event：createEvent
