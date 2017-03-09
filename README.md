@@ -33,6 +33,7 @@
    ![test](img/4.png)
    使用js代码模拟用户输入gp账号，将邮箱账号添加到输入框中，并点击下一步
    page.evaluate()函数代表在浏览器中执行的js代码
+   
    ![test](img/5.png)
 
 3. 输入账号后，页面切换到输入密码，密码输入框控件id为Passwd
