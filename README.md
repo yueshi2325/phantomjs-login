@@ -1,6 +1,7 @@
 # PhantomJs
 安装PhantomJS
 下载对应版本PhantomJS，解压缩即可
+
 1. PhantomJS官网下载地址： http://phantomjs.org/download.html
 
 2. PhantomJS下载：  wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
